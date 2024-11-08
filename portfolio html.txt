@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="sampleportfolio.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="hero-header" id="home">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-l"></i>
+                    <div class="logo-text">Lalith Sai</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/dppic.jpeg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Lalith Sai</h1>
+                    <p>Lalith Sai is a skilled web developer with a background in creating dynamic, user-friendly websites. A graduate of MIC College of Technology, he brings strong technical expertise and a passion for innovation to every project. Lalith is dedicated to delivering high-quality solutions that enhance the user experience and meet client goals.</p>
+
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/1X7bAn360WT7OoEBmgymF9RQjWI0RdAQ1/view?usp=drive_link" class="btn active">Download Resume</a>
+                        <a href="#contact" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/lalithsai.meesala?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/lalith-sai-meesala-60a526320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/m.lalithsai?igsh=NmNraHZxdXc2ZmNs"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sections for Portfolio, Resume, Blog, Contact -->
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+    <h2 class="section-title" style="color: #007ced">Portfolio</h2>
+    <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/blue_prism.png" alt="Project 1" class="portfolio-image">
+                <h3 class="portfolio-title">Project 1: Intelligent Automation Internship</h3>
+                <p class="portfolio-description">Successfully completed a 10-week Intelligent Automation Virtual Internship. This highlights skills in intelligent automation.</p>
+                <a href="https://drive.google.com/file/d/1-XyDvwwL51G1rMz_Jqq9NkAVbajP4-jI/view?usp=drive_link" class="portfolio-link">View Certificate</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/calcy.jpg" alt="Project 2" class="portfolio-image">
+                <h3 class="portfolio-title">Project 2: Basic Math Calculator</h3>
+                <p class="portfolio-description">Developed a simple tool to perform arithmetic operations, demonstrating knowledge in fundamental programming concepts.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+
+<section id="resume" class="resume-section">
+    <h2 class="section-title" style="color: #007ced">Resume</h2>
+    <div class="resume-content">
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Lalith Sai Meesala</h3>
+            <p><strong>Email:</strong> lalithsaimeesala123@gmail.com</p>
+            <p><strong>Phone:</strong> 9392678893</p>
+            <p><strong>Address:</strong> 6-923/A, Jaggayyapeta, NTR District, Andhra Pradesh, 521175</p>
+        </div>
+
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Career Objective</h3>
+            <p>To obtain a responsible position in an organization where I can utilize my skills and knowledge to contribute to the growth of the company.</p>
+        </div>
+
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Academic Qualifications</h3>
+            <ul>
+                <li>Diploma from MIC College of Technology</li>
+                <li>10th from New Paramount High School</li>
+            </ul>
+        </div>
+
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Professional Skills</h3>
+            <ul>
+                <li>Basic Knowledge of Computers</li>
+                <li>Frontend Developer</li>
+                <li>Web Developer</li>
+            </ul>
+        </div>
+
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Work Experience</h3>
+            <p>Fresher</p>
+        </div>
+
+        <div class="resume-item">
+            <h3 class="resume-subtitle">Personal Details</h3>
+            <p><strong>Father’s Name:</strong> Ramesh Babu</p>
+            <p><strong>Date of Birth:</strong> 21st December 2004</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Marital Status:</strong> Unmarried</p>
+            <p><strong>Languages Known:</strong> Hindi, English, Telugu</p>
+            <p><strong>Hobbies:</strong> Reading books, Watching anime</p>
+            <p><strong>Location:</strong> Jaggayyapeta</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact">
+        <!-- Contact content goes here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 style="color: #007ced">Contact</h2>
+        <div class="container">
+            <div class="contact-info">
+                <p><strong>Name:</strong> Lalith Sai Meesala</p>
+                <p><strong>Email:</strong> <a href="mailto:lalithsaimeesala123@gmail.com">lalithsaimeesala123@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919392678893">+91 9392678893</a></p>
+                <p><strong>Location:</strong> Jaggayyapeta, Andhra Pradesh, India</p>
+            </div>
+
+            <div class="social-contact">
+                <p><strong>Connect with me:</strong></p>
+                <a href="https://www.facebook.com/lalithsai.meesala?mibextid=ZbWKwL" class="social-link"><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+                <a href="https://www.linkedin.com/in/lalith-sai-meesala-60a526320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a><br>
+                <a href="https://www.instagram.com/m.lalithsai?igsh=NmNraHZxdXc2ZmNs" class="social-link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!---typed js for typing text effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+    </script>
+</body>
+</html>
